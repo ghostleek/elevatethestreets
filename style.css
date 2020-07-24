@@ -4,6 +4,12 @@
   --primary-color: #3a4052;
 }
 
+.logo{
+  position:absolute;
+  left:0;
+  top:0;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -45,7 +51,7 @@ h1 {
   height: 100%;
   overflow: hidden;
   background: var(--primary-color) url('./https://traversymedia.com/downloads/cover.jpg') no-repeat center
-    center/cover;
+  center/cover;
 }
 
 .video-container video {
@@ -106,4 +112,10 @@ h1 {
 
 .social a {
   margin: 0 5px;
+}
+
+img {
+  width: 10%;
+  height: 10%;
+  object-fit: contain;
 }
