@@ -1,10 +1,4 @@
-/**
-* Template Name: Arsha - v2.2.1
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -633,6 +627,10 @@ section {
   font-size: 20px;
   color: #47b2e4;
   line-height: 1;
+}
+
+.about .content b{
+  color: #FFF;
 }
 
 .about .content h2{
