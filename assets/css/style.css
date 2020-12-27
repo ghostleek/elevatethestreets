@@ -682,6 +682,7 @@ section a {
 --------------------------------------------------------------*/
 #why-us {
   background: #E7B6B4;
+  padding-bottom:0;
 }
 .why-us .content {
   padding: 60px 100px 0 100px;
@@ -897,45 +898,51 @@ section a {
 --------------------------------------------------------------*/
 #skills {
   padding-bottom:0;
+  background: #3A538A;
  }
 
-.skills .content h3 {
+
+#skills h2 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
   font-weight: 700;
-  font-size: 32px;
-  color: #37517e;
-  font-family: "Poppins", sans-serif;
+  line-height: 56px;
+  color: #fff;
 }
 
-.skills .content ul {
-  list-style: none;
-  padding: 0;
+#skills p {
+  color: #D6D6D6;
 }
 
-
-.skills .content ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #47b2e4;
+#skills h4 {
+  color: #9DA9C5;
 }
 
-.skills .content p:last-child {
-  margin-bottom: 0;
+/*--------------------------------------------------------------
+# Outreach
+--------------------------------------------------------------*/
+#outreach {
+  padding-bottom:0;
+  padding-top:0;
+  background: #101636;
+ }
+
+
+#outreach h2 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
 }
 
-.skills .progress {
-  height: 50px;
-  display: block;
-  background: none;
+#outreach p {
+  color: #D6D6D6;
 }
 
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #37517e;
+#outreach h4 {
+  padding-top:60px;
+  color: #9DA9C5;
 }
 /*--------------------------------------------------------------
 # Services
@@ -1788,7 +1795,7 @@ section a {
 }
 
 /*--------------------------------------------------------------
-# About-timelinle Section
+# About-timeline Section
 --------------------------------------------------------------*/
 #about-timeline {
   background: #E7B6B4;
