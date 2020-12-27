@@ -1,29 +1,23 @@
-/**
-* Template Name: Arsha - v2.2.1
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+html * {
+  font-family: 'Dosis', sans-serif;
 }
 
 a {
-  color: #47b2e4;
+  color: #D85627;
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #F98960;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Jost", sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -92,13 +86,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #47b2e4;
+  background: #D85627;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #209dd8;
+  background: #A4330B;
   color: #fff;
 }
 
@@ -384,10 +378,13 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: #37517e;
+  height: 100%;
+  background-image: url("https://res.cloudinary.com/df6dcketg/image/upload/v1609032294/hero_fsl3yg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
 }
-
 #hero .container {
   padding-top: 72px;
 }
@@ -528,6 +525,11 @@ section {
   overflow: hidden;
 }
 
+section a {
+  color: #D85627;
+  text-decoration: underline;
+}
+
 .section-bg {
   background-color: #f3f5fa;
 }
@@ -605,9 +607,8 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
-.about .content h3 {
-  font-weight: 600;
-  font-size: 26px;
+#about {
+  background: #3A538A;
 }
 
 .about .content ul {
@@ -631,6 +632,22 @@ section {
   font-size: 20px;
   color: #47b2e4;
   line-height: 1;
+}
+
+.about .content b{
+  color: #FFF;
+}
+
+.about .content h2{
+  color: #FFF;
+}
+
+.about .content h4{
+  color: #9DA9C5;
+}
+
+.about .content p{
+  color: #9DA9C5;
 }
 
 .about .content p:last-child {
@@ -663,6 +680,10 @@ section {
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
+#why-us {
+  background: #E7B6B4;
+  padding-bottom:0;
+}
 .why-us .content {
   padding: 60px 100px 0 100px;
 }
@@ -785,66 +806,144 @@ section {
 }
 
 /*--------------------------------------------------------------
+# what do
+--------------------------------------------------------------*/
+#what-do {
+  background: #73C4D7;
+}
+.what-do .content {
+  padding: 60px 100px 0 100px;
+}
+
+.what-do .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #37517e;
+}
+
+.what-do .content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.what-do .content p {
+  font-size: 15px;
+  color: #848484;
+}
+
+.what-do .img {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.what-do .accordion-list {
+  padding: 0 100px 60px 100px;
+}
+
+.why-us .accordion-list ul {
+  padding: 0;
+  list-style: none;
+}
+
+.why-us .accordion-list li + li {
+  margin-top: 15px;
+}
+
+.why-us .accordion-list li {
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+}
+
+.what-do .accordion-list a {
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-right: 30px;
+  outline: none;
+}
+
+@media (max-width: 1024px) {
+  .what-do .content, .what-do .accordion-list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .what-do .img {
+    min-height: 400px;
+  }
+  .what-do .content {
+    padding-top: 30px;
+  }
+  .what-do .accordion-list {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .what-do .img {
+    min-height: 200px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.skills .content h3 {
+#skills {
+  padding-bottom:0;
+  background: #3A538A;
+ }
+
+
+#skills h2 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
   font-weight: 700;
-  font-size: 32px;
-  color: #37517e;
-  font-family: "Poppins", sans-serif;
+  line-height: 56px;
+  color: #fff;
 }
 
-.skills .content ul {
-  list-style: none;
-  padding: 0;
+#skills p {
+  color: #D6D6D6;
 }
 
-.skills .content ul li {
-  padding-bottom: 10px;
+#skills h4 {
+  color: #9DA9C5;
 }
 
-.skills .content ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #47b2e4;
+/*--------------------------------------------------------------
+# Outreach
+--------------------------------------------------------------*/
+#outreach {
+  padding-bottom:0;
+  padding-top:0;
+  background: #101636;
+ }
+
+
+#outreach h2 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
 }
 
-.skills .content p:last-child {
-  margin-bottom: 0;
+#outreach p {
+  color: #D6D6D6;
 }
 
-.skills .progress {
-  height: 50px;
-  display: block;
-  background: none;
+#outreach h4 {
+  padding-top:60px;
+  color: #9DA9C5;
 }
-
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #37517e;
-}
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #e8edf5;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: .9s;
-  background-color: #4668a2;
-}
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -1653,6 +1752,77 @@ section {
 }
 
 /*--------------------------------------------------------------
+# About-bubbles Section
+--------------------------------------------------------------*/
+#about-bubbles {
+  background: #73C4D7;
+}
+
+/*--------------------------------------------------------------
+# About-family Section
+--------------------------------------------------------------*/
+#about-family {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://res.cloudinary.com/df6dcketg/image/upload/v1609060314/bg_kai_afgava.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+}
+
+#about-family h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#about-family h3 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #EA602F;
+}
+#about-family b {
+  color: #EA602F;
+}
+
+#about-family p {
+  color: #D6D6D6;
+}
+
+/*--------------------------------------------------------------
+# About-timeline Section
+--------------------------------------------------------------*/
+#about-timeline {
+  background: #E7B6B4;
+}
+
+#about-timeline h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+#about-timeline h3 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+}
+#about-family b {
+  color: #EA602F;
+}
+
+#about-family p {
+  color: #D6D6D6;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
@@ -1760,7 +1930,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #47b2e4;
+  color: #D85627;
   font-size: 18px;
   line-height: 1;
 }
@@ -1784,13 +1954,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #47b2e4;
+  color: #D85627;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #47b2e4;
+  background: #D85627;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
