@@ -525,6 +525,11 @@ section {
   overflow: hidden;
 }
 
+section a {
+  color: #D85627;
+  text-decoration: underline;
+}
+
 .section-bg {
   background-color: #f3f5fa;
 }
@@ -805,7 +810,6 @@ section {
 #what-do {
   background: #73C4D7;
 }
-
 .what-do .content {
   padding: 60px 100px 0 100px;
 }
@@ -891,6 +895,10 @@ section {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
+#skills {
+  padding-bottom:0;
+ }
+
 .skills .content h3 {
   font-weight: 700;
   font-size: 32px;
@@ -903,9 +911,6 @@ section {
   padding: 0;
 }
 
-.skills .content ul li {
-  padding-bottom: 10px;
-}
 
 .skills .content ul i {
   font-size: 20px;
@@ -932,23 +937,6 @@ section {
   font-family: "Poppins", sans-serif;
   color: #37517e;
 }
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #e8edf5;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: .9s;
-  background-color: #4668a2;
-}
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
