@@ -527,7 +527,6 @@ section {
 
 section a {
   color: #D85627;
-  text-decoration: underline;
 }
 
 .section-bg {
@@ -947,6 +946,10 @@ section a {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services .img {
+  padding-bottom: 30px;
+}
+
 .services .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
@@ -1822,6 +1825,35 @@ section a {
   color: #D6D6D6;
 }
 
+/*--------------------------------------------------------------
+# BCS
+--------------------------------------------------------------*/
+
+#main .quote {
+  padding: 50px 0;
+  background: #f3f5fa;
+  text-align: center;
+  font-size: 15px;
+  color: #444444;
+}
+#main .quote h4 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #37517e;
+}
+
+#main .quote form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
