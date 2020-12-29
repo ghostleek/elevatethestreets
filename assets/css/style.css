@@ -527,7 +527,6 @@ section {
 
 section a {
   color: #D85627;
-  text-decoration: underline;
 }
 
 .section-bg {
@@ -947,6 +946,10 @@ section a {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services .img {
+  padding-bottom: 30px;
+}
+
 .services .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
