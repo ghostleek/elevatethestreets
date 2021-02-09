@@ -2048,13 +2048,15 @@ section a {
 #card img {
   border-radius: 25px 25px 0 0;
 }
+
 #card .card {
   /* Add shadows to create the "card" effect */
   width: 80%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  border-radius: 25px; /* 5px rounded corners */
+  border-radius: 25px;
 }
+
 /* On mouse-over, add a deeper shadow */
 #card .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -2063,6 +2065,7 @@ section a {
 #card .container {
   padding: 2px 32px;
 }
+
 #card img {
   border-radius: 25px 25px 0 0;
 }
